@@ -3,7 +3,7 @@ import persistentOptions.*;
 
 public class Main {
     public static void main(String[] args) {
-        buildingEntrance.entrance();
+        buildingEntrance.intro();
 
     }
 }

@@ -23,6 +23,7 @@ public class movement {
 
         movementResult(movementChoice());
     }
+    public static String lastMove;
 
     public static String movementChoice() {
         String movement;
@@ -47,6 +48,7 @@ public class movement {
                 movement = "back";
             }
         }
+        lastMove = movement;
         return movement;
     }
 
@@ -69,7 +71,6 @@ public class movement {
                 movementOptions();
             }
         }
-
     }
 
 /*
